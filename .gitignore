@@ -1,0 +1,40 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Env files
+.env
+.env.*
+!.env.example
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+
+# Optional SASS and LESS files
+.sass-cache/
+*.css.map
+*.sass.map
+*.scss.map
+
+# Cursor
+.cursor-session
+
+# Script files to ignore
+DecimalChecker.js
+testFeeChecker.js 

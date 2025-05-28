@@ -1,0 +1,23 @@
+{
+  "name": "bridge-bot",
+  "version": "1.0.0",
+  "description": "BSC to Solana token bridge bot",
+  "main": "brbot.js",
+  "scripts": {
+    "start": "node brbot.js",
+    "dev": "nodemon brbot.js"
+  },
+  "keywords": ["bridge", "bsc", "solana", "crypto", "bot"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "ethers": "^6.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+} 
